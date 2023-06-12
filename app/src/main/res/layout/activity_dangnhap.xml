@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dangnhap"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:background="#fff"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Dangnhap">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:text="ĐĂNG NHẬP"
+        android:textColor="#2196F3"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:stretchColumns="1">
+
+        <TableRow android:layout_marginBottom="20dp">
+
+            <TextView
+                android:layout_marginRight="20dp"
+                android:text="Username"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtname_signin"
+                android:layout_width="match_parent"
+                android:background="#DA8A14"
+                android:padding="10dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:text="Password"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtpass_signin"
+                android:layout_width="match_parent"
+                android:background="#DA8A14"
+                android:inputType="textPassword"
+                android:padding="10dp" />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btndangnhap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#2196F3"
+        android:text="ĐĂNG NHẬP"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btndangky"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#2196F3"
+        android:text="ĐĂNG KÝ"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <CheckBox
+        android:id="@+id/chk_ghntk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ghi nhớ tài khoản"></CheckBox>
+
+</LinearLayout>

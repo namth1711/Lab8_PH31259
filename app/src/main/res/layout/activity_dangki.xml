@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context=".Dangki">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:text="ĐĂNG KÝ"
+        android:textColor="#2196F3"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtname_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="#C57B0E"
+        android:padding="5dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtpass_Signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="#C57B0E"
+        android:inputType="textPassword"
+        android:padding="5dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Comfirm Password"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtnhaplai_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#C57B0E"
+        android:inputType="textPassword"
+        android:padding="5dp" />
+
+    <Button
+        android:id="@+id/btndangky_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#2196F3"
+        android:text="ĐĂNG KÝ"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
